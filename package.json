@@ -1,0 +1,27 @@
+{
+  "name": "ci-br",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "gen": "ts-node src/script/gen.ts",
+    "dpl": "ts-node src/script/dpl.ts",
+    "ls": "ts-node src/script/ls.ts"
+  },
+  "keywords": [],
+  "author": "arnesacnussem",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.5.0",
+    "@types/yaml": "^1.2.0",
+    "cross-env": "^7.0.0",
+    "loadsh": "^0.0.4",
+    "lodash": "^4.17.15",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "yaml": "^1.7.2"
+  }
+}

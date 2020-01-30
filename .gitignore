@@ -1,0 +1,7 @@
+node_modules
+.idea
+*.iml
+.travis.yml
+*.log
+configurations
+!configurations/setting.json

@@ -1,0 +1,1 @@
+console.log("Useless script, don't run.");

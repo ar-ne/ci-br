@@ -1,0 +1,23 @@
+{
+  "delete_old": true,
+  "dpl": {
+    "version": 2
+  },
+  "env": {
+    "runtime": {
+      "GITHUB_TOKEN": "GITHUB_TOKEN"
+    },
+    "config": {
+      "repo": "CI_REPOSITORY"
+    }
+  },
+  "ci": {
+    "travis": {
+      "branches": {
+        "except": [
+          "/^untagged/"
+        ]
+      }
+    }
+  }
+}
