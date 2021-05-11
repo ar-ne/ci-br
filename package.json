@@ -19,7 +19,7 @@
     "@types/yaml": "^1.2.0",
     "cross-env": "^7.0.0",
     "loadsh": "^0.0.4",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5",
     "yaml": "^1.7.2"
